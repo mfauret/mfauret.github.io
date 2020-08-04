@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Bonus - Grasshoper</title>
+      <link>https://mfauret.github.io/docs/opcional-grasshoper/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://mfauret.github.io/docs/opcional-grasshoper/</guid>
+      <description>encargo 1</description>
+    </item>
+    
+    <item>
       <title>Configuración</title>
       <link>https://mfauret.github.io/docs/configuracion/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -35,6 +44,24 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/entrega-1/</guid>
+      <description>encargo 1</description>
+    </item>
+    
+    <item>
+      <title>Encargo 2 - Mecanizado CNC</title>
+      <link>https://mfauret.github.io/docs/entrega-2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://mfauret.github.io/docs/entrega-2/</guid>
+      <description>encargo 2</description>
+    </item>
+    
+    <item>
+      <title>Encargo 3 - Mecanizado 2.5D</title>
+      <link>https://mfauret.github.io/docs/entrega3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://mfauret.github.io/docs/entrega3/</guid>
       <description>encargo 1</description>
     </item>
     
@@ -54,6 +81,15 @@
       
       <guid>https://mfauret.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Bonus Grasshoper</title>
+      <link>https://mfauret.github.io/docs/bonus-grasshoper/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://mfauret.github.io/docs/bonus-grasshoper/</guid>
+      <description>Ejercicio de desvaste con modelo realizado en Grasshoper</description>
     </item>
     
     <item>
