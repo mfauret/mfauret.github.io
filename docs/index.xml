@@ -12,39 +12,12 @@
     
     
     <item>
-      <title>Instalar Tema</title>
-      <link>https://mfauret.github.io/docs/instalar-tema/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://mfauret.github.io/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Configuración</title>
-      <link>https://mfauret.github.io/docs/configuracion/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://mfauret.github.io/docs/configuracion/</guid>
-      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
-    </item>
-    
-    <item>
-      <title>Eco-maceta</title>
-      <link>https://mfauret.github.io/docs/eco-maceta/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://mfauret.github.io/docs/eco-maceta/</guid>
-      <description>encargo 1</description>
-    </item>
-    
-    <item>
       <title>Encargo 1 - Planimetría</title>
       <link>https://mfauret.github.io/docs/entrega-1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/entrega-1/</guid>
-      <description>encargo 1</description>
+      <description>Documentación de la primera entrega de fabricación, para lo cuál hicimos las planimetrías de la silla DSW diseñada por Charles y Ray Eames</description>
     </item>
     
     <item>
@@ -53,7 +26,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/entrega-2/</guid>
-      <description>encargo 2</description>
+      <description>Documentación del segundo encargo de fabricación,sobre el proceso de mecanizado CNC, para el cuál simulamos el proceso de fabricación en fusion 360 de la silla fresia.</description>
     </item>
     
     <item>
@@ -62,25 +35,25 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/entrega3/</guid>
+      <description>Documentación del encargo 3 de fabricación, para lo cuál realizamos el mecanizado 2.5D del respaldo de la silla fresia.</description>
+    </item>
+    
+    <item>
+      <title>Encargo 4 - Eco-maceta</title>
+      <link>https://mfauret.github.io/docs/eco-maceta/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://mfauret.github.io/docs/eco-maceta/</guid>
       <description>encargo 1</description>
     </item>
     
     <item>
-      <title>Ejemplo Shortcodes</title>
-      <link>https://mfauret.github.io/docs/ejemplo/</link>
+      <title>Encargo 5 - Iteraciones de la forma del macetero</title>
+      <link>https://mfauret.github.io/docs/examen-proceso1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://mfauret.github.io/docs/ejemplo/</guid>
-      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
-    </item>
-    
-    <item>
-      <title>Ejemplos Markdown</title>
-      <link>https://mfauret.github.io/docs/markdown/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://mfauret.github.io/docs/markdown/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+      <guid>https://mfauret.github.io/docs/examen-proceso1/</guid>
+      <description>Documentación del primer encargo grupal sobre la investigación de la forma de una maceta, para lo cuál realizamos distintas iteraciones de maceteros y sus moldes.</description>
     </item>
     
     <item>
@@ -90,15 +63,6 @@
       
       <guid>https://mfauret.github.io/docs/bonus-grasshoper/</guid>
       <description>Ejercicio de desvaste con modelo realizado en Grasshoper</description>
-    </item>
-    
-    <item>
-      <title>Objetivos del Curso</title>
-      <link>https://mfauret.github.io/docs/objetivos/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://mfauret.github.io/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
     </item>
     
   </channel>
