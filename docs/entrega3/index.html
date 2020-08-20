@@ -127,9 +127,10 @@
           
 <h1 class="title">Encargo 3 - Mecanizado 2.5D</h1>
 <div class="content ">
-  <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h2 id="mecanizado-25d">Mecanizado 2.5D</h2>
+  <h2 id="mecanizado-25d">Mecanizado 2.5D</h2>
+<p>En el mecanizado , 2.5D se refiere a una superficie que es una proyección de un plano en tercera dimensión - a pesar de que el objeto es de 3 dimensiones, no hay elementos que sobresalen posible. Los objetos de este tipo se representan a menudo como un mapa de contorno que da la altura ( es decir , el grosor o profundidad) del objeto en cada punto.</p>
+<p>Una máquina 2.5D, también llamado un molino de dos y-a-media-eje , posee la capacidad de traducir en los tres ejes, pero se puede realizar la operación de corte sólo en dos de los tres ejes en un momento debido a las limitaciones de hardware o software , o una máquina que tiene un solenoide en vez de un verdadero eje, Z lineal. Un ejemplo típico implica una mesa XY que posiciona para cada centro de agujero, en el que el husillo (eje Z), entonces se completa un ciclo fijo para la perforación por el desplome y retraer axialmente.</p>
+<p>El código para un mecanizado 2.5D es significativamente menor que el mecanizado de bordes 3D, y los requisitos de software y hardware son (tradicionalmente) más barato. Centros de taladrado y roscado son centros de mecanizado de bajo costo, limitada para trabajos que comenzaron como una categoría de mercado en 2,5 ejes, aunque muchas otras son de último modelo de 3 ejes debido a que los costes de hardware y software se han reducido a medida que avanza la tecnología.</p>
 <hr>
 <h2 id="porqué-hablamos-de-mecanizado-25d-y-no-3d">¿Porqué hablamos de mecanizado 2.5D y no 3D?</h2>
 <p>El mecanizado 2.5D es denominado como tal, dado a que si bien este tiene una total libertad de movimiento tanto en el eje Y como en el eje X, en el eje Z sólo puede realizar movimientos de elevaciones. Un mecanizado 3D debería tener la misma libertad de movimiento en sus 3 ejes.</p>
@@ -138,25 +139,114 @@
 <p>Para este encargo vamos a simular el proceso de mecanizado del respaldo de la silla fresia que vimos en el encargo anterior</p>
 <h4 id="la-silla-fresia">LA SILLA FRESIA</h4>
 <p><img src="/img/encargo2/laminafresia2-03.png" alt="imagen3"></p>
+<p><em>Planimetrìas :</em>
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://mfauret.github.io//img/encargo2/plan1//aaaaa.png');" >
+				      <img itemprop="thumbnail" src="https://mfauret.github.io//img/encargo2/plan1//aaaaa.png" alt="Aaaaa" />
+				    </div>
+			      <figcaption>
+		          <p>Aaaaa</p>
+			      </figcaption>
+				    <a href="https://mfauret.github.io//img/encargo2/plan1//aaaaa.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://mfauret.github.io//img/encargo2/plan1//bbbb.png');" >
+				      <img itemprop="thumbnail" src="https://mfauret.github.io//img/encargo2/plan1//bbbb.png" alt="Bbbb" />
+				    </div>
+			      <figcaption>
+		          <p>Bbbb</p>
+			      </figcaption>
+				    <a href="https://mfauret.github.io//img/encargo2/plan1//bbbb.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://mfauret.github.io//img/encargo2/plan1//ccccc.png');" >
+				      <img itemprop="thumbnail" src="https://mfauret.github.io//img/encargo2/plan1//ccccc.png" alt="Ccccc" />
+				    </div>
+			      <figcaption>
+		          <p>Ccccc</p>
+			      </figcaption>
+				    <a href="https://mfauret.github.io//img/encargo2/plan1//ccccc.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
 <hr>
 <h2 id="paso-a-paso-de-la-mecanización">Paso a paso de la mecanización</h2>
-<ul>
-<li>
 <h3 id="paso-1">PASO 1:</h3>
-</li>
-</ul>
 <p>Crear un bloque que contenga la pieza que queremos mecanizar, en este caso el respaldo de la silla fresia.</p>
 <p><img src="/img/encargo3/bloque.png" alt="p1"></p>
-<ul>
-<li>Lo cuál fisicamente se vería algo como esto:</li>
-</ul>
+<p>Lo cuál fisicamente se vería algo como esto:</p>
 <p><img src="/img/encargo3/m11.jpg" alt="p1"></p>
-<hr>
-<ul>
-<li>
 <h3 id="paso-2">PASO 2:</h3>
-</li>
-</ul>
 <p>Realizar el primer mecanizado de vaciado, para sacar el volumen que sobra del cubo que contiene al respaldo.</p>
 <div>
     <video 
@@ -166,15 +256,9 @@
     <source src="/img/m21.mp4"  type="video/mp4">
     </video>
 </div>
-<ul>
-<li>Fisicamente se vería así:</li>
-</ul>
-<h2 id="p1imgencargo3m12jpg"><img src="/img/encargo3/m12.jpg" alt="p1"></h2>
-<ul>
-<li>
+<p>Fisicamente se vería así:</p>
+<p><img src="/img/encargo3/m12.jpg" alt="p1"></p>
 <h3 id="paso-3">PASO 3:</h3>
-</li>
-</ul>
 <p>Realizamos un recorrido horizontal con la fresa, para que de esta manera la forma del respaldo quede mucho más limpia y precisa.</p>
 <div>
     <video 
@@ -184,29 +268,15 @@
     <source src="/img/m22.mp4"  type="video/mp4">
     </video>
 </div>
-<hr>
-<ul>
-<li>
 <h3 id="paso-4">PASO 4:</h3>
-</li>
-</ul>
 <p>Realizamos un recorrido vertical con la fresa, para de esta forma tener una pieza aún más pulida.</p>
 <p><img src="/img/encargo3/bloquep3.png" alt="p2"></p>
-<ul>
-<li>Esto Fisicamente se vería así:</li>
-</ul>
+<p>Esto Fisicamente se vería así:</p>
 <p><img src="/img/encargo3/m13.jpg" alt="p1"></p>
-<hr>
-<ul>
-<li>
 <h3 id="paso-5">PASO 5:</h3>
-</li>
-</ul>
 <p>Para que la fresa no choque con el bloque al trabajar, deberemos modificarla de la siguiente forma, con lo que tendremos una fresa más larga, que no chocara con el bloque al trabajar</p>
 <p><img src="/img/encargo3/edittool.png" alt="p2"></p>
-<ul>
-<li>Como resultado de lo anterior, tendremos el siguiente recorrido:</li>
-</ul>
+<p>Como resultado de lo anterior, tendremos el siguiente recorrido:</p>
 <div>
     <video 
     width="100%" 
@@ -215,15 +285,8 @@
     <source src="/img/m23.mp4"  type="video/mp4">
     </video>
 </div>
-<hr>
-<ul>
-<li>
 <h3 id="paso-6">PASO 6:</h3>
-</li>
-</ul>
 <p>Finalmente debemos realizar el proceso anterior, pero del lado contrario. Empezamos por definir en setup nuestra nueva área de trabajo, posterior a haber realizado el sketch donde la delimitamos. Luego procedemos con el desvaste de la pieza y finalmente realizamos las funciones paralelas en 2 ejes, para terminar de limpiar la pieza.</p>
-<ul>
-<li>
 <p>Aqui podemos ver los videos del proceso en digital:
 <div>
     <video 
@@ -257,11 +320,7 @@
     <source src="/img/aa4.mp4"  type="video/mp4">
     </video>
 </div></p>
-</li>
-<li>
 <p>Como resultado de lo anterior, tendremos algo que se vera más o menos así:</p>
-</li>
-</ul>
 <p><img src="/img/encargo3/8.jpg" alt="p2"></p>
 
 </div>
