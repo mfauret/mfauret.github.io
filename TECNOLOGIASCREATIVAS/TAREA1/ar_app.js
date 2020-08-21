@@ -159,7 +159,7 @@ function init() {
                 .load('cubo1.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                    // RhinoMesh.scale.set(0.25, 0.25, 0.25);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
 
@@ -178,7 +178,7 @@ function init() {
                 .load('cubo2.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                    // RhinoMesh.scale.set(0.25, 0.25, 0.25);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
 
@@ -197,7 +197,7 @@ function init() {
             .load('cubo3.obj', function (group) {
                 RhinoMesh = group.children[0];
                 RhinoMesh.material.side = THREE.DoubleSide;
-                RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                // RhinoMesh.scale.set(0.25, 0.25, 0.25);
                 RhinoMesh.castShadow = true;
                 RhinoMesh.receiveShadow = true;
 
@@ -216,7 +216,7 @@ function init() {
                 .load('cubo4.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                    // RhinoMesh.scale.set(0.25, 0.25, 0.25);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
 
@@ -234,7 +234,7 @@ function init() {
                 .load('cubo.obj', function (group) {
                     RhinoMesh2 = group.children[0];
                     RhinoMesh2.material.side = THREE.DoubleSide;
-                    RhinoMesh2.scale.set(0.25, 0.25, 0.25);
+                    // RhinoMesh2.scale.set(0.25, 0.25, 0.25);
                     RhinoMesh2.castShadow = true;
                     RhinoMesh2.receiveShadow = true;
 
