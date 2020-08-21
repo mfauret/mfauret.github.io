@@ -114,7 +114,7 @@ function init() {
     //Creamos nuestro marcador 
     let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 
-        type: 'pattern', patternUrl: 'data/mr1.patt',
+        type: 'pattern', patternUrl: 'data/hiro.patt',
     });
 
     /////////////////////////////////////////////////
