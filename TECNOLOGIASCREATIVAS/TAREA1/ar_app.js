@@ -114,7 +114,7 @@ function init() {
     //Creamos nuestro marcador 
     let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 
-        type: 'pattern', patternUrl: 'data/mid.patt',
+        type: 'pattern', patternUrl: 'data/pattern-m1.patt',
     });
 
     /////////////////////////////////////////////////
@@ -175,12 +175,12 @@ function init() {
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('01.mtl', function (materials) {
+        .load('cubo1.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('01.obj', function (group) {
+                .load('cubo1.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
                     RhinoMesh.scale.set(0.25, 0.25, 0.25);
@@ -191,15 +191,71 @@ function init() {
                 }, onProgress, onError);
         });
 
-    //////OBJETO RHINO 2///////////////
+    //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('02.mtl', function (materials) {
+        .load('cubo2.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('02.obj', function (group) {
+                .load('cubo2.obj', function (group) {
+                    RhinoMesh = group.children[0];
+                    RhinoMesh.material.side = THREE.DoubleSide;
+                    RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh.castShadow = true;
+                    RhinoMesh.receiveShadow = true;
+
+                    markerRoot1.add(RhinoMesh);
+                }, onProgress, onError);
+        });
+        
+    //////OBJETO RHINO 1///////////////
+    new THREE.MTLLoader()
+    .setPath('data/models/')
+    .load('cubo3.mtl', function (materials) {
+        materials.preload();
+        new THREE.OBJLoader()
+            .setMaterials(materials)
+            .setPath('data/models/')
+            .load('cubo3.obj', function (group) {
+                RhinoMesh = group.children[0];
+                RhinoMesh.material.side = THREE.DoubleSide;
+                RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                RhinoMesh.castShadow = true;
+                RhinoMesh.receiveShadow = true;
+
+                markerRoot1.add(RhinoMesh);
+            }, onProgress, onError);
+    });
+    
+    //////OBJETO RHINO 1///////////////
+    new THREE.MTLLoader()
+        .setPath('data/models/')
+        .load('cubo4.mtl', function (materials) {
+            materials.preload();
+            new THREE.OBJLoader()
+                .setMaterials(materials)
+                .setPath('data/models/')
+                .load('cubo4.obj', function (group) {
+                    RhinoMesh = group.children[0];
+                    RhinoMesh.material.side = THREE.DoubleSide;
+                    RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh.castShadow = true;
+                    RhinoMesh.receiveShadow = true;
+
+                    markerRoot1.add(RhinoMesh);
+                }, onProgress, onError);
+        });
+    //////OBJETO RHINO 2///////////////
+    new THREE.MTLLoader()
+        .setPath('data/models/')
+        .load('cubo5.mtl', function (materials) {
+            materials.preload();
+            new THREE.OBJLoader()
+                .setMaterials(materials)
+                .setPath('data/models/')
+                .load('cubo.obj', function (group) {
                     RhinoMesh2 = group.children[0];
                     RhinoMesh2.material.side = THREE.DoubleSide;
                     RhinoMesh2.scale.set(0.25, 0.25, 0.25);
