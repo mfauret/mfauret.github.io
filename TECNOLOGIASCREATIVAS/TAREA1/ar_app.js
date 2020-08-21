@@ -114,7 +114,7 @@ function init() {
     //Creamos nuestro marcador 
     let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 
-        type: 'pattern', patternUrl: 'data/pattern-m1.patt',
+        type: 'pattern', patternUrl: 'data/pattern-mk1.patt',
     });
 
     /////////////////////////////////////////////////
@@ -131,31 +131,7 @@ function init() {
     //creo material 
     let material2 = new THREE.MeshLambertMaterial({ color: Math.random() * 0xffffff }); //creamos el material
 
-    //////////////MESH1//////////////////////////////////////////
-    //creo un mesh con la geometria y el material 
-    mesh1 = new THREE.Mesh(geo1, material1); //nuestro mesh 
-    //CAMBIO LA POSICION DE MI MESH 
-    mesh1.position.y = 0.5;
-    mesh1.position.z = -0.3;
-
-    //activo el recibir y proyectar sombras en otros meshes
-    mesh1.castShadow = true;
-    mesh1.receiveShadow = true;
-
-    //////////////MESH2//////////////////////////////////////////
-    //creo un mesh con la geometria y el material 
-    mesh2 = new THREE.Mesh(geo2, material2); //nuestro mesh 
-    //CAMBIO LA POSICION DE MI MESH 
-    mesh2.position.x = 0.75;
-    mesh2.position.y = 1.0;
-    //activo el recibir y proyectar sombras en otros meshes
-    mesh2.castShadow = true;
-    mesh2.receiveShadow = true;
-
-
-    //markerRoot1.add(mesh1); //esta linea agrega el cubo a mi grupo y finalmente se puede ver en la escena 
-    //markerRoot1.add(mesh2); //agregando el mesh 2 a mi escena
-
+   
     ////////////////////PISO////////////////
     let floorGeometry = new THREE.PlaneGeometry(20, 20);
     let floorMaterial = new THREE.ShadowMaterial();
@@ -191,7 +167,7 @@ function init() {
                 }, onProgress, onError);
         });
 
-    //////OBJETO RHINO 1///////////////
+    //////OBJETO RHINO 2///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
         .load('cubo2.mtl', function (materials) {
@@ -210,7 +186,7 @@ function init() {
                 }, onProgress, onError);
         });
         
-    //////OBJETO RHINO 1///////////////
+    //////OBJETO RHINO 3///////////////
     new THREE.MTLLoader()
     .setPath('data/models/')
     .load('cubo3.mtl', function (materials) {
@@ -229,7 +205,7 @@ function init() {
             }, onProgress, onError);
     });
     
-    //////OBJETO RHINO 1///////////////
+    //////OBJETO RHINO 4///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
         .load('cubo4.mtl', function (materials) {
@@ -247,7 +223,7 @@ function init() {
                     markerRoot1.add(RhinoMesh);
                 }, onProgress, onError);
         });
-    //////OBJETO RHINO 2///////////////
+    //////OBJETO RHINO 5///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
         .load('cubo5.mtl', function (materials) {
