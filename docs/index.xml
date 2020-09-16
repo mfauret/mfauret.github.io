@@ -12,16 +12,16 @@
     
     
     <item>
-      <title>Encargo 1 - Planimetría</title>
+      <title>1 - Planimetría</title>
       <link>https://mfauret.github.io/docs/entrega-1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/entrega-1/</guid>
-      <description>Documentación de la primera entrega de fabricación, para lo cuál hicimos las planimetrías de la silla DSW diseñada por Charles y Ray Eames</description>
+      <description>Documentación de la primera entrega de fabricación, para lo cuál hicimos las planimetrías de la silla DSW diseñada por Charles y Ray Eames.</description>
     </item>
     
     <item>
-      <title>Encargo 2 - Mecanizado CNC</title>
+      <title>2 - Mecanizado CNC</title>
       <link>https://mfauret.github.io/docs/entrega-2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Encargo 3 - Mecanizado 2.5D</title>
+      <title>3 - Mecanizado 2.5D</title>
       <link>https://mfauret.github.io/docs/entrega3/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -39,25 +39,16 @@
     </item>
     
     <item>
-      <title>Encargo 4 - Eco-maceta</title>
+      <title>4 - Eco-maceta</title>
       <link>https://mfauret.github.io/docs/eco-maceta/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/eco-maceta/</guid>
-      <description>encargo 1</description>
+      <description>Encargo 4 de fabricación digital.</description>
     </item>
     
     <item>
-      <title>POST 2 EXAMEN FINAL</title>
-      <link>https://mfauret.github.io/docs/examen-post-2/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://mfauret.github.io/docs/examen-post-2/</guid>
-      <description>Segundo post examen Fabricación digital</description>
-    </item>
-    
-    <item>
-      <title>Proyecto final - Experimentación de materiales</title>
+      <title>5 - Experimentación de materiales (grupal)</title>
       <link>https://mfauret.github.io/docs/examen-proceso2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -66,7 +57,7 @@
     </item>
     
     <item>
-      <title>Proyecto final - Experimentación formal (parte 1)</title>
+      <title>7 - Experimentación formal (parte 1)</title>
       <link>https://mfauret.github.io/docs/examen-proceso1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -75,12 +66,21 @@
     </item>
     
     <item>
-      <title>Proyecto final - Experimentación formal (parte 2)</title>
+      <title>7- Experimentación formal (parte 2)</title>
       <link>https://mfauret.github.io/docs/examen-proceso3/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://mfauret.github.io/docs/examen-proceso3/</guid>
       <description>Documentación del primer encargo grupal sobre la investigación de la forma de una maceta, para lo cuál realizamos distintas iteraciones de maceteros y sus moldes.</description>
+    </item>
+    
+    <item>
+      <title>9 - POST 2 EXAMEN FINAL</title>
+      <link>https://mfauret.github.io/docs/examen-post-2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://mfauret.github.io/docs/examen-post-2/</guid>
+      <description>Segundo post examen Fabricación digital</description>
     </item>
     
     <item>
@@ -102,7 +102,7 @@
     </item>
     
     <item>
-      <title>POST 1 EXAMEN FINAL</title>
+      <title>8 - POST 1 EXAMEN FINAL</title>
       <link>https://mfauret.github.io/docs/8.-post-1-examen/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
